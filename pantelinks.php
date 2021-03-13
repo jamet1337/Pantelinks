@@ -129,7 +129,7 @@
     if(isset($_POST['exe'])){
 
       $url=$_POST['url'];
-      $urlData = 'http://jamet1337.000webhostapp.com/pagelink.jpg?target='.$url;
+      $urlData = 'http://jamet1337.ml/pagelink.php?target='.$url;
       $result = file_get_contents($urlData);
       $resultJson = json_decode($result, TRUE);
 
